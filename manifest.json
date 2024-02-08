@@ -1,0 +1,68 @@
+{
+"name":"Spider-man Blog PWA",
+"short_name": "SMB-PWA",
+"description":"aplicacion PWA de materia Web Progresivas",
+"Background_color":"#FFF",
+"theme_color":"#FB314E",
+"orientation":"landscope",
+"display":"standalone",
+"start_url":"./index.html?utm_source=web_app_manifest",
+"scope":"./,",
+"lang":"es-MX",
+"icons": [
+    {
+        "src":"./img/icono.jpg",
+        "sizes":"1024x1024",
+        "type":"image/png"
+    },
+    {
+        "src":"./img/favicon-512.png",
+        "sizes":"1024x1024",
+        "type":"image/png"
+    },
+    {
+        "src":"./img/favicon-384.png",
+        "sizes":"1024x1024",
+        "type":"image/png"
+    },
+    {
+        "src":"./img/favicon-256.png",
+        "sizes":"1024x1024",
+        "type":"image/png"
+    },
+    {
+        "src":"./img/favicon-192.png",
+        "sizes":"1024x1024",
+        "type":"image/png"
+    },
+    {
+        "src":"./img/favicon-128.png",
+        "sizes":"1024x1024",
+        "type":"image/png"
+    },
+    {
+        "src":"./img/favicon-96.png",
+        "sizes":"1024x1024",
+        "type":"image/png"
+    },
+    {
+        "src":"./img/favicon-64.png",
+        "sizes":"1024x1024",
+        "type":"image/png"
+    },
+    {
+        "src":"./img/favicon-32.png",
+        "sizes":"1024x1024",
+        "type":"image/png"
+    },
+    {
+        "src":"./img/favicon-16.png",
+        "sizes":"1024x1024",
+        "type":"image/png"
+    }
+]
+
+
+
+
+}

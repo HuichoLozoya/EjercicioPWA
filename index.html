@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="">
+    <meta name = "theme-color" content="#FB314E"/>
+    <meta name = "MobileOptimied" content="width"/>
+
+    <meta name = "HandheldFriendly" content="true"/>
+
+   <!--Meta etiqueta para PWA para Apple-->
+   <meta name="apple-mobile-web-app-capable" content="yes" />
+   <meta name="apple-mobile-web-app-status-bar-style" content="black-traslucent"/>
+   <link rel="apple-touch-icon" href="img/icono.jpg"/>
+   <link rel="apple-touch-startup-image" href="img/icono.jpg"/>
+   <!--Configuración General PWA-->
+   <link rel="manifest" href="manifest.json"/>
+   <!--Hojas de estilo-->
+   <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sintony&display=swap" rel="stylesheet">
+
+    <title>Spider-man</title>
+</head>
+
+<body>
+
+    <nav class="navbar bg-danger">
+        <a class="navbar-brand clblack" href="#">Spiderman</a>
+        <h5 id="enemies"><i class="bi bi-arrow-right-square-fill arrowPos"></i> Enemigos</h5>
+    </nav>
+
+    <main>
+        <section class="mainContainer">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/81wGv3qBXVL.jpg" alt="Imagen de spiderman">
+            <div class="navigation">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-bs-toggle="tab" href="#home">¿Quién es?</a>
+                    </li>
+                </ul>
+                <div id="myTabContent" class="tab-content">
+                    <div class="tab-pane fade active show" id="home">
+                        <p>Spider Man (en español Hombre Araña). es un personaje ficticio del universo Marvel creado por
+                            el guionista estadounidense Stan Lee y el dibujante Steve Ditko para la historieta #15 de
+                            Amazing Fantasy (1962), dada la naturaleza serial de la publicación de cómics y su longeva
+                            existencia, Spider Man ha evolucionado como personaje a medida que se han ido sumando nuevas
+                            aventuras. Los detalles de su origen, relaciones y habilidades han cambiado
+                            significativamente durante el curso de la publicación del personaje, convirtiéndose en el
+                            icono emblemático de la misma, llegando a representar uno de los personajes más famosos
+                            dentro de la industria de los cómics, películas y videojuegos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="enemies" id="enemiesTable">
+        <table class="table table-hover">
+            <thead>
+              <tr>
+                <th class="pointer" scope="col">Nombre</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th class="pointer" scope="row">Duende verde</th>
+              </tr>
+              <tr>
+                <th class="pointer" scope="row">Rino</th>
+              </tr>
+              <tr>
+                <th class="pointer" scope="row">Electro</th>
+              </tr>
+              <tr>
+                <th class="pointer" scope="row">Venom</th>
+              </tr>
+              <tr>
+                <th class="pointer" scope="row">Dr. Octopus</th>
+              </tr>
+              <tr>
+                <th class="pointer" scope="row">Lagarto</th>
+              </tr>
+              <tr>
+                <th class="pointer" scope="row">Cuervo</th>
+              </tr>
+              <tr>
+                <th class="pointer" scope="row">Carnage</th>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+
+    <footer class="footer">
+        <h3>Creado por <span><a href="https://www.facebook.com/luiscarlos.lozoyachavez"> Huicho Lozoya</a> </span></h3>
+        <p id="date">Date</p>
+        <button type="button" class="btn bg-primary btn-sm pos"><a class="clblack" href="https://www.ecured.cu/Spider-Man_(personaje)">Fuente(s) de información</a></button>
+    </footer>
+
+
+    <script src="main.js"></script>
+
+
+
+</body>
+
+</html>
