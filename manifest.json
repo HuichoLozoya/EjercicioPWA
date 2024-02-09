@@ -4,7 +4,7 @@
 "description":"aplicacion PWA de materia Web Progresivas",
 "Background_color":"#FFF",
 "theme_color":"#FB314E",
-"orientation":"landscope",
+"orientation":"landscape",
 "display":"standalone",
 "start_url":"./index.html?utm_source=web_app_manifest",
 "scope":"./",
