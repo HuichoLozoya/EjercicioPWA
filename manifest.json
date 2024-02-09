@@ -10,6 +10,57 @@
 "scope":"./,",
 "lang":"es-MX",
 "icons": [
+    {
+        "src":"./img/icono.jpg",
+        "sizes":"1024x1024",
+        "type":"image/jpg"
+    },
+    {
+        "src":"./img/icono(1).jpg",
+        "sizes":"512x512",
+        "type":"image/jpg"
+    },
+    {
+        "src":"./img/icono(2).jpg",
+        "sizes":"384x384",
+        "type":"image/jpg"
+    },
+    {
+        "src":"./img/icono(3).jpg",
+        "sizes":"256x256",
+        "type":"image/jpg"
+    },
+    {
+        "src":"./img/icono(4).jpg",
+        "sizes":"192x192",
+        "type":"image/jpg"
+    },
+    {
+        "src":"./img/icono(5).jpg",
+        "sizes":"128x128",
+        "type":"image/jpg"
+    },
+    {
+        "src":"./img/icono(6).jpg",
+        "sizes":"96x96",
+        "type":"image/jpg"
+    },
+    {
+        "src":"./img/icono(7).jpg",
+        "sizes":"64x64",
+        "type":"image/jpg"
+    },
+    {
+        "src":"./img/icono(8).jpg",
+        "sizes":"32x32",
+        "type":"image/jpg"
+    },
+    {
+        "src":"./img/icono(9).jpg",
+        "sizes":"16x16",
+        "type":"image/jpg"
+    }
+
     
 ]
 
