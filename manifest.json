@@ -7,7 +7,7 @@
 "orientation":"landscope",
 "display":"standalone",
 "start_url":"./index.html?utm_source=web_app_manifest",
-"scope":"./,",
+"scope":"./",
 "lang":"es-MX",
 "icons": [
     {
