@@ -6,17 +6,18 @@ const CACHE_NAME='V1_cache_LL_PWA';
     './',
     './css/styles.css',
     './facebook.png',
-    './img/icono.jpg',
-    './img/icono(1).jpg',
-    './img/icono(2).jpg',
-    './img/icono(3).jpg',
-    './img/icono(4).jpg',
-    './img/icono(5).jpg',
-    './img/icono(6).jpg',
-    './img/icono(7).jpg',
-    './img/icono(/).jpg',
-    './img/icono(8).jpg',
-    './img/icono(9).jpg',
+    './img/icono.png',
+    './img/icono (1).png',
+    './img/icono (2).png',
+    './img/icono (3).png',
+    './img/icono (4).png',
+    './img/icono (5).png',
+    './img/icono (6).png',
+    './img/icono (7).png',
+    './img/icono (/).png',
+    './img/icono (8).png',
+    './img/icono (9).png',
+    './img/icono (10).png',
     './instragram.png',
     './twitter.png'
 
@@ -69,7 +70,7 @@ caches.keys()
     })
     
     .then(()=>{
-        self.clients.clain(); // activa todo el cache del dispositivo
+        self.clients.claim(); // activa todo el cache del dispositivo
 
     })
 );

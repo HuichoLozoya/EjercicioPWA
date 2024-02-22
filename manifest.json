@@ -2,63 +2,69 @@
 "name":"Spider-man Blog PWA",
 "short_name": "SMB-PWA",
 "description":"aplicacion PWA de materia Web Progresivas",
-"Background_color":"#FFF",
-"theme_color":"#FB314E",
+"background_color":"#FFF",
+"theme-color":"#FB314E",
 "orientation":"landscape",
 "display":"standalone",
 "start_url":"./index.html?utm_source=web_app_manifest",
-"scorpe":"./",
+"scope":"./",
 "lang":"es-MX",
 "icons": [
     {
-        "src":"./img/icono.jpg",
-        "sizes":"1024x1024",
-        "type":"image/jpg"
-    },
-    {
-        "src":"./img/icono(1).jpg",
-        "sizes":"512x512",
-        "type":"image/jpg"
-    },
-    {
-        "src":"./img/icono(2).jpg",
-        "sizes":"384x384",
-        "type":"image/jpg"
-    },
-    {
-        "src":"./img/icono(3).jpg",
-        "sizes":"256x256",
-        "type":"image/jpg"
-    },
-    {
-        "src":"./img/icono(4).jpg",
-        "sizes":"192x192",
-        "type":"image/jpg"
-    },
-    {
-        "src":"./img/icono(5).jpg",
-        "sizes":"128x128",
-        "type":"image/jpg"
-    },
-    {
-        "src":"./img/icono(6).jpg",
-        "sizes":"96x96",
-        "type":"image/jpg"
-    },
-    {
-        "src":"./img/icono(7).jpg",
-        "sizes":"64x64",
-        "type":"image/jpg"
-    },
-    {
-        "src":"./img/icono(8).jpg",
-        "sizes":"32x32",
-        "type":"image/jpg"
-    },
-    {
-        "src":"./img/icono(9).jpg",
+        "src":"./img/icono.png",
         "sizes":"16x16",
-        "type":"image/jpg"
+        "type":"image/png"
+    },
+    {
+        "src":"./img/icono (1).png",
+        "sizes":"32x32",
+        "type":"image/png"
+    },
+    {
+        "src":"./img/icono (2).png",
+        "sizes":"64x64",
+        "type":"image/png"
+    },
+    {
+        "src":"./img/icono (3).png",
+        "sizes":"96x96",
+        "type":"image/png"
+    },
+    {
+        "src":"./img/icono (4).png",
+        "sizes":"128x128",
+        "type":"image/png"
+    },
+    {
+        "src":"./img/icono (5).png",
+        "sizes":"192x192",
+        "type":"image/png"
+    },
+    {
+        "src":"./img/icono (6).png",
+        "sizes":"256x256",
+        "type":"image/png"
+    },
+    {
+        "src":"./img/icono (7).png",
+        "sizes":"384x384",
+        "type":"image/png"
+    },
+    {
+        "src":"./img/icono (8).png",
+        "sizes":"512x512",
+        "type":"image/png"
+    },
+    {
+        "src":"./img/icono (9).png",
+        "sizes":"1024x1024",
+        "type":"image/png"
+    },
+
+    {
+        "src":"./img/icono (10).png",
+        "sizes":"144x144",
+        "type":"image/png"
     }
 
     
